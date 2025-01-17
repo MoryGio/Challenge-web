@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajout au Panier</title>
+    <link rel="stylesheet" href="Logos/Panier_last.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Mon Panier</h1>
+    </header>
+
+    <main class="container">
+
+        <section class="cart-items">
+            <h2>Articles dans votre panier</h2>
+            <div class="cart-item">
+                <img src="Logos/Achat1.png" alt="Gants de boxe Python Aqua">
+                <div class="item-details">
+                    <h3>Gants de boxe Python Aqua</h3>
+                    <p>Prix : 79,99 €</p>
+                </div>
+                <button id="Plus1">+1</button>
+            </div>
+            <div class="cart-item">
+
+            </div>
+        </section>
+
+   
+        <aside class="cart-summary">
+            <h2>Résumé</h2>
+            <p>Nombre d'articles : <strong id="nb-article">1</strong></p>
+            <p>Total : <strong id = "prixclick">79,99 €</strong></p>
+            <button class="btn checkout">Finaliser la commande</button>
+            <a href="Page_acceuil.html">
+            <button class="btn continue">Retour à la boutique</button>
+            </a>
+    
+        </aside>
+        <script src="Panier.js"></script>
+    </main>
+</body>
+</html>

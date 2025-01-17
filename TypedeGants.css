@@ -1,0 +1,57 @@
+/* Styles de base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px; 
+}
+
+
+.card {
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  padding: 15px;
+}
+
+.card img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0px;
+  border-radius: 3%; 
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.container img:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+     transition: transform 0.3s ease;
+    cursor: pointer;
+}

@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.images img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+    flex: 1;
+}
+
+.details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.installments {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.size-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sizes {
+    display: flex;
+    gap: 10px;
+}
+
+.size .button1 {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.size-button:hover {
+    background-color: #e0e0e0;
+}
+
+
+.Gants-Python-Aqua p{
+    text-decoration: none; 
+    color: inherit; 
+}
+
+
+.no-underline {
+    text-decoration: none; 
+    color: inherit;
+}
+
+.no-underline:hover {
+    color: #007bff; 
+}
+
+
+.panier button {
+    margin-top: 20px;
+    background-color: #8aff5c;
+    cursor: pointer; 
+    border-radius: 5px; 
+    border: 2px solid #ffffff; 
+    font-size: 130%;
+}
